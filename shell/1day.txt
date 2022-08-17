@@ -1,0 +1,44 @@
+杨铸
+308337380@qq.com
+coder
+code代码
+coder写代码的人  程序猿（程序媛）MACOS
+开源软件衍生版本computer software
+GPL：开源、免费、修改后必须免费
+Linux：狭义（kernel内核）、广义=狭义+很多application应用 distribution  红帽
+long term support 长期支持
+multi user     multi task     
+
+1 Linux基础知识和使用（熟练使用） 学究
+裸机开发：只有裸硬件，没有os（operation system 操作系统）。把开发板当单片机玩 汇编+c
+底层的开发：有硬件，也有os（80%都会选择linux）driver驱动 C语言
+上层的开发：C\C++(QT)\JAVA(Android)超集
+2 C语言高级（在嵌入式开发当中，用的比较多的一些高级内容）结构体、共用体、指针、数组、函数
+
+如何在LInux下安装应用程序
+1. 从网上下载vim的安装包
+2. 双击setup.exe
+3. 一路next
+
+Linux下卸载软件
+
+有2种方法
+1 dpkg
+存在2个问题:
+1) 需要先下载安装包
+2）无法处理依赖
+A软件依赖于B软件：A软件需要用到B软件的东西
+因此，如果不先装B软件，那么A软件就不可能安装成功，或者运行成功
+配置文件
+软件源
+2 apt
+
+apt-get install vim
+sudo apt-get update
+/etc/apt/soures.list
+/var/cache/apt/archieve/xxx.deb   缓存
+apt-get clean
+reverse 反转
+apt-cache rdepends vim
+
+今天实验：使用dpkg和apt安装和卸载软件
