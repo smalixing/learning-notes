@@ -43,7 +43,7 @@ git add -A
 	cat index
 
 将暂存区的文件提交到git的本地仓库中，代表仓库到了一个交付的状态
-git commit -m "add "
+git commit -m "add "	//""中间写如提交的提示内容，方便区分
 
 github创建仓库、获得仓库链接
 
@@ -59,5 +59,5 @@ git clone https://github.com/brave-acher/learning-notes.git
 成功后获得一个仓库的文件夹，如果已经有了，便更新变动
 ```
 
-commit 提交
+
 
