@@ -49,10 +49,11 @@ github创建仓库、获得仓库链接
 
 添加远端地址（直接复制github代码）
 git remote add origin https://github.com/brave-acher/learning-notes.git
+
 git remote -v//查看
 
 提交到远端仓库github
-git push -u origin main	//-u目的，以后直接git就好 
+git push -u origin master	//-u目的，以后直接git就好 
 
 拉取远端仓库
 git clone https://github.com/brave-acher/learning-notes.git
